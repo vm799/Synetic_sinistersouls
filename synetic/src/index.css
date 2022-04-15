@@ -15,8 +15,8 @@
   
   --clr-light: #fff;
   --clr-dark: #101010;
-  --clr-accent: #02e2ff;
-  --clr-accent_second:#ff0088;
+  --clr-accent: #0099CA;
+  --clr-accent_second:#E900B3;
   
   --fs-h1: 2.5rem;
   --fs-h2: 2.25rem;
@@ -40,7 +40,8 @@
 body {
   margin: 0;
   padding:0;
-  font-family:var(--ff-tertiary)
+  font-family:var(--ff-tertiary);
+  background-color: #011c2f;
 }
 
 /* small screens by default  */

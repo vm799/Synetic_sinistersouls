@@ -5,7 +5,7 @@
 }
 
 :root{
-  --ff-primary: 'Audiowide', cursive;
+  --ff-primary: 'Audiowide';
   --ff-secondary: 'DM Mono', monospace;
   --ff-tertiary: 'Inter', sans-serif;
   
@@ -92,7 +92,7 @@ position:fixed;
   display:flex;
   align-content:space-between;
   text-decoration: none;
-font-family: var(--ff-secondary);
+font-family: var(--ff-tertiary);
 height:40x;
 font-size: 0.8rem;
 font-weight:bold;
@@ -171,7 +171,7 @@ nav img{
 }
 
 .header-heading h2{
-	font-family:var(--ff-secondary);
+	font-family:var(--ff-primary);
 	font-size: var(--fs-h2);
 	letter-spacing: 2px;
 	color:#ffffff;

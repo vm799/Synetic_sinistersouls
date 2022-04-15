@@ -152,7 +152,7 @@ nav img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-width: 900px;
+/* width: 900px; */
 position: absolute;
   left: 50%;
 top: 55%;
@@ -197,9 +197,9 @@ margin-bottom: -0.5em;
     background-color:var(--clr-accent);
     shadow: var(--bs);
     border-radius: 5px;
-	color:#ffffff;
-text-decoration: none;
-padding: 0.4em 0.8em;
+	  color:#ffffff;
+    text-decoration: none;
+    padding: 0.4em 0.8em;
 
 }
 
@@ -207,7 +207,7 @@ padding: 0.4em 0.8em;
 	background-color: transparent;
     transition: all ease 0.5s;
     color:var(--clr-accent);
-    border: 2px solid hsl(43, 100%, 54%);
+    border: 2px solid var(--clr-accent-second);
   }
 
   #features{
@@ -215,7 +215,7 @@ padding: 0.4em 0.8em;
     color:var(--clr-accent);
     font-family: var(--ff-secondary);
     display: flex;
-   flex-direction:column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
     padding: 3em;

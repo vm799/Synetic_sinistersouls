@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-
 :root{
-  --ff-primary: 'Abel', sans-serif;
-  --ff-secondary: 'Cabin', sans-serif;
-  --ff-tertiary: 'Oxygen', sans-serif;
+  --ff-primary: 'Audiowide', cursive;
+  --ff-secondary: 'DM Mono', monospace;
+  --ff-tertiary: 'Inter', sans-serif;
   
   --fw-reg: 300;
   --fw-bold: 900;
@@ -152,11 +151,11 @@ nav img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-/* width: 900px; */
-position: absolute;
+  width: 100%;
+  position: absolute;
   left: 50%;
-top: 55%;
-transform: translate(-50%,-55%);
+  top: 55%;
+  transform: translate(-50%,-55%);
 }
 
 .header-heading span{
@@ -207,7 +206,7 @@ margin-bottom: -0.5em;
 	background-color: transparent;
     transition: all ease 0.5s;
     color:var(--clr-accent);
-    border: 2px solid var(--clr-accent-second);
+    border: 2px solid var(--clr-accent_second);
   }
 
   #features{

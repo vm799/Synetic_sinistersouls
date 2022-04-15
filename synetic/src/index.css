@@ -15,7 +15,7 @@
   --fw-bold: 900;
   
   --clr-light: #fff;
-  --clr-dark: #011c2f;
+  --clr-dark: #101010;
   --clr-accent: #E900B3;
   --clr-accent_second:#0099CA;
   
@@ -127,7 +127,7 @@ nav img{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1536768139911-e290a59011e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  /* background-image: url("https://images.unsplash.com/photo-1536768139911-e290a59011e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGZ1dHVyaXN0aWMlMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"); */
   position: relative;
   z-index: 0;
   color:var(--clr-light);

@@ -17,8 +17,8 @@ export default function Navbar(){
 
     return (
         <nav className= "nav">
-<a href="#" >
-    <img classname ="logo" src={logo}  alt="gym logo" />
+<a href="#" className= "logo" >
+    SYNETIC
 </a>
 
 <ul className="menu">

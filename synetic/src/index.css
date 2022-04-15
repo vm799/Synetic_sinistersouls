@@ -119,7 +119,9 @@ nav img{
  align-self: flex-start;
 }
 
-
+nav .logo{
+  font-family: var(--ff-primary);
+}
 
 #main{
   width:100%;

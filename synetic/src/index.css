@@ -215,7 +215,7 @@ background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%
 background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%);
     transition: all ease 0.5s;
     color:white;
-    border: 2px solid var(--clr-accent_second);
+    border: 2px solid white;
     font-weight: var(--fw-bold);
     font-family: var(--ff-primary);
   }

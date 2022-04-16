@@ -4,7 +4,7 @@
     transform-style: preserve-3d;
 } */
 
-/* .hero{
+.hero{
     width:100%;
     height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: centre;
     border: 2px solid tomato;
 }
 
@@ -113,4 +113,4 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
   margin:-10px;
   padding:0;
   }
-} */
+}

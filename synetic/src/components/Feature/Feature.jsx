@@ -1,13 +1,11 @@
 import React from "react";
 import FeatureBox from "../FeatureBox/FeatureBox"
 // import fimage1 from ".../images/1.png"
-import fimage1 from 
-"https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
-import fimage2 from 
-"https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
-import fimage3 from 
-"https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+import fimage1 from "../../images/1.png"
 
+import fimage2 from "../../images/2.png"
+
+import fimage3 from "../../images/3.png"
 
 export default function Feature(){
     return(

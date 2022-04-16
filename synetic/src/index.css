@@ -28,7 +28,7 @@
         0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width:800px){
+
   :root{
     --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
@@ -42,7 +42,7 @@ body {
   margin: 0;
   padding:0;
   font-family:var(--ff-tertiary);
-  background-color: #011c2f;
+  background-color: var(--clr-dark);
 }
 
 /* small screens by default  */
@@ -64,7 +64,7 @@ position:fixed;
   display:flex;
   justify-content:center;
   align-items:center;
-
+  background-color:#101010;
   width: 100%;
 }
 
@@ -121,6 +121,9 @@ nav img{
 
 nav .logo{
   font-family: var(--ff-primary);
+  text-decoration: none;
+  color: var(--clr-light);
+  font-size: 2rem;
 }
 
 #main{
@@ -135,8 +138,8 @@ nav .logo{
   color:var(--clr-light);
 
 }
-
-#main::before{
+/* add circular filter if needed */
+/* #main::before{
   position: absolute;
   content: "";
   background: radial-gradient(ellipse at center, rgba(147, 130, 95, 0.38) 0%, rgb(0, 0, 0) 100%);
@@ -145,7 +148,7 @@ nav .logo{
   width: 100%;
   height: 100%;
   z-index: -1;
-}
+} */
 
 
 /* Main hero image styles */
@@ -197,7 +200,8 @@ margin-bottom: -0.5em;
 	justify-content: center;
     align-items: center;
     font-size: 1em;
-    background-color:var(--clr-accent);
+    background: rgb(233,0,179);
+background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     shadow: var(--bs);
     border-radius: 5px;
 	  color:#ffffff;
@@ -207,16 +211,19 @@ margin-bottom: -0.5em;
 }
 
 .header-btn:hover{
-	background-color: transparent;
+	background: rgb(0,153,202);
+background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%);
     transition: all ease 0.5s;
-    color:var(--clr-accent);
+    color:white;
     border: 2px solid var(--clr-accent_second);
+    font-weight: var(--fw-bold);
+    font-family: var(--ff-primary);
   }
 
   #features{
     width:100%;
     color:var(--clr-accent);
-    font-family: var(--ff-secondary);
+    font-family: var(--ff-primary);
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -253,7 +260,7 @@ margin-bottom: -0.5em;
   align-items: center;
   text-align:center;
 padding: 1em;
-background-color: #041713d4;
+background-color: #00000085;
     width:300px;
     height: 400px;
     margin: 20px;
@@ -279,7 +286,8 @@ background-color: #041713d4;
 color:var(--clr-light);
 width: 80%;
 height: 40%;
-   margin:1em 2em;
+margin:1em 2em;
+font-family: var(--ff-tertiary);
 }
 
 h2:hover{
@@ -437,8 +445,7 @@ padding:0;
     box-shadow: 5px 5px 20px var(--clr-dark);
 	background-color: transparent;
     transition: all ease 0.3s;
-    color:var(--clr-dark);
-    border: 1px solid var(--clr-dark);
+    color: white;
 }
 
 #about img{
@@ -584,4 +591,4 @@ footer i{
    
   }
 
-}}
+}

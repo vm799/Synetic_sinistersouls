@@ -46,8 +46,8 @@ body {
 }
 
 /* small screens by default  */
-.nav{
-  width:100%;
+/* .nav{
+width:100%;
 display:flex;
 justify-content:flex-start;
 background: transparent;
@@ -56,7 +56,7 @@ align-items:center;
 z-index:1;
 color: var(--clr-light);
 position:fixed;
-}
+} */
 
 .nav{
   display:flex;
@@ -155,7 +155,6 @@ nav .logo{
   justify-content: center;
   align-items: center;
   width: 100%;
-  position: absolute;
   left: 50%;
   top: 55%;
   transform: translate(-50%,-55%);
@@ -263,7 +262,7 @@ background-color: #00000085;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.4s ease-in-out;
-    position: relative;
+    /* position: relative; */
 }
 
 .feature__box:hover{

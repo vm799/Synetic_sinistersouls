@@ -145,9 +145,9 @@ nav .logo{
   justify-content: center;
   align-items: center;
   width: 100%;
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%,-55%);
+  margin: 5rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .header-heading span{
@@ -160,11 +160,14 @@ nav .logo{
   padding:0;
   margin:0;
   margin-bottom: 1em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-heading h2{
 	font-family:var(--ff-primary);
-	font-size: var(--fs-h2);
+	font-size: 0.8rem;
 	letter-spacing: 2px;
 	color:#ffffff;
 margin-bottom: -0.5em;
@@ -172,8 +175,8 @@ margin-bottom: -0.5em;
 
 .header-heading h1{
 	font-family:var(--ff-primary);
-	font-size:var(--fs-h1);
-  margin-bottom: 1em;
+	font-size:2rem;
+  margin-bottom: 1.5em;
 	letter-spacing: 2px;
 	color:#ffffff;
 }
@@ -185,6 +188,7 @@ margin-bottom: -0.5em;
 	justify-content: center;
     align-items: center;
     font-size: 1em;
+
     background: rgb(233,0,179);
 background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     shadow: var(--bs);
@@ -203,7 +207,31 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
     border: 2px solid white;
     font-weight: var(--fw-bold);
     font-family: var(--ff-primary);
+    margin-bottom: 1rem;
   }
+
+  @media (min-width:800px){
+    .header-heading .details{
+      color:var(--clr-light);
+      font-size: 1rem;
+      padding:0;
+      margin:1rem;
+
+    }
+    
+    .header-heading h2{
+    font-size: 2rem;
+    margin-bottom: -0.5em;
+    }
+    
+    .header-heading h1{
+      font-family:var(--ff-primary);
+      font-size:1.5rem;
+      margin-bottom: 1.5em;
+    }
+  }
+
+
 
   #features{
     width:100%;
@@ -215,6 +243,8 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
     justify-content: center;
     padding: 3em;
     background-color: var(--clr-dark);
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 #features h1{
@@ -253,6 +283,16 @@ background-color: #00000085;
     overflow: hidden;
     transition: 0.4s ease-in-out;
     /* position: relative; */
+}
+
+.feature__box p{
+  font-size: 1rem;
+  margin-bottom:1rem;
+}
+
+.feature__box h2{
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .feature__box:hover{
@@ -296,7 +336,8 @@ text-align:center;
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 #offer::before{
@@ -306,7 +347,7 @@ text-align:center;
   width: 65%;
   height: 70%;
   z-index: 1;
-bottom: 162px;
+  bottom: 162px;
 }
 
 .pr-heading{
@@ -322,7 +363,7 @@ bottom: 162px;
 }
 
 .pr-heading span{
-  color: var(--clr-accent-second);
+  color: var(--clr-accent_second);
 }
 
  .pr-heading p{
@@ -357,7 +398,7 @@ bottom: 162px;
 text-decoration: none;
 padding: 1em 3em;
 /* width: 200px;  */
-z-index: 2;
+z-index: 3;
 }
 
 .pr-btn:hover{
@@ -369,8 +410,11 @@ z-index: 2;
 
   @media (min-width:800px){
     #offer{
+    display: flex;
+	  justify-content: center;
+    align-items: center;
     background-image:url("https://images.unsplash.com/photo-1553675559-5046b59a5ca5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&q=60");
-    background-size: 300px 100px;
+    background-size: 70% 70%;
     }
   }
 
@@ -386,7 +430,9 @@ z-index: 2;
     background: #FDC830;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: var(--clr-dark)
+    color: var(--clr-dark);
+    margin-top: 8rem;
+  margin-bottom: 8rem;
   }
 
 
@@ -482,7 +528,8 @@ padding:0;
     align-items: center;
     flex-direction: column;
     background-color: var(--clr-dark);
-
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 #contact h1{
@@ -547,6 +594,8 @@ footer {
  align-items:center;
  background-color: var(--clr-dark);
  cursor:pointer;
+ margin-top: 8rem;
+margin-bottom: 8rem;
 }
 
 footer .social-list{

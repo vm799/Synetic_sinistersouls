@@ -16,11 +16,11 @@
     background: var(--clr-dark);
     color: var(--clr-light);
     border: 2px solid hotpink;
-   background-color: babyblue;
+    background-color: babyblue;
 }
 .hero-text{
     display: flex;
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     align-items: centre;
     border: 2px solid tomato;
@@ -73,6 +73,7 @@ background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%
     padding: 1em 2em;
     font-weight: var(--fw-bold);
     font-family: var(--ff-primary);
+    width: 4em;
 }
 
 .hero-btn:hover{

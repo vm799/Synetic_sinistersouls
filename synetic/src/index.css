@@ -293,7 +293,7 @@ h2:hover{
 text-align:center;
   color:var(--clr-light);
   display:flex;
-  flex-direction: coloumn;
+  flex-direction: column;
   justify-content:center;
   align-items:center;
   
@@ -313,7 +313,6 @@ bottom: 162px;
   text-align: center;
 	font-family:var(--ff-secondary);
 	width: 600px;
-	position: absolute;
     left: 50%;
 	top: 55%;
 	transform: translate(-50%,-50%);
@@ -335,12 +334,13 @@ bottom: 162px;
   margin-top:-1em;
   margin-bottom: 2em;
   width:400px;
+  font-size: 0.6rem;
 }
 
 
 .pr-heading h1{
 	font-family:var(--ff-primary);
-	font-size:var(--fs-h1);
+	font-size:2rem;
   margin-bottom: 1em;
 	letter-spacing: 2px;
 	color:#ffffff;
@@ -350,7 +350,7 @@ bottom: 162px;
 	display: flex;
 	justify-content: center;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     background-color:var(--clr-accent_second);
     shadow: var(--bs);
     border-radius: 5px;

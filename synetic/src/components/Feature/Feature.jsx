@@ -12,9 +12,12 @@ export default function Feature(){
         <div id="features">
             <h1>Features</h1>
             <div className="feature-container">
-                <FeatureBox image={fimage1} title="NFTS" />
+                {/* <FeatureBox image={fimage1} title="NFTS" />
                 <FeatureBox image={fimage2} title="GAMING" />
-                <FeatureBox image={fimage3} title="SYNEVERSE" />
+                <FeatureBox image={fimage3} title="SYNEVERSE" /> */}
+                <FeatureBox title="NFTS" />
+                <FeatureBox title="GAMING" />
+                <FeatureBox title="SYNEVERSE" />
                 {/* <FeatureBox image={fimage4} title="Flexibility" /> */}
 
                 </div>

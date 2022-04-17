@@ -6,12 +6,11 @@
 
 .hero{
     width:100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 0rem;
+    padding-top: 3rem;
     margin-top: 0rem;
     background: var(--clr-dark);
     color: var(--clr-light);
@@ -20,17 +19,21 @@
 }
 .hero-text{
     display: flex;
-    width: 80%;
+    width:100%;
     flex-direction: column;
     align-items: centre;
     border: 2px solid tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-image{
     width: 100%;
+    border: 2px solid teal;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid teal;
 }
 
 
@@ -43,18 +46,18 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     display: block;
-    font-size: 2em;
+    font-size: 3em;
 
 }
 
 p{
    margin-top:0;
    padding: 0;
-   padding-bottom: 2em;
    letter-spacing: 0.6px;
-   font-size: 1rem;
+   font-size: 2rem;
    font-weight: 300;
    font-family:var(--ff-tertiary);
+ 
 }
 
 
@@ -63,17 +66,17 @@ p{
 	display: flex;
 	justify-content: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 0.8em;
     background: rgb(233,0,179);
 background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     shadow: var(--bs);
     border-radius: 5px;
 	  color:#ffffff;
     text-decoration: none;
-    padding: 1em 2em;
+    padding: 1em 3em;
     font-weight: var(--fw-bold);
     font-family: var(--ff-primary);
-    width: 4em;
+    margin: 1rem;
 }
 
 .hero-btn:hover{
@@ -91,27 +94,37 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
 @media(min-width:800px){
   .hero{
     width:100%;
-    height: 120vh;
+    height: 80vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 5% 0px 5%;
    
   }
 
-  .hero-text p{
-    padding: 0 1.2em;
-    padding-bottom: 1em;
-    letter-spacing: 0.6px;
+  .hero-text{
+    display: flex;
+    width: 30%;
+    height: 100vh;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+  }
+    
+
+.hero-image{
+    width: 70%;
+    height: 100vh;
+  
+}
+
+p{
+    font-size: 1rem;
+  
   }
   
   .hero-text h2{
-    font-weight:var(--fw-reg);
-    font-family:var(--ff-primary);
-    font-size: 4rem;
-  margin:-10px;
-  padding:0;
+    
   }
 }

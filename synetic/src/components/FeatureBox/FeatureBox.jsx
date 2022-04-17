@@ -7,7 +7,7 @@ export default function FeatureBox(props){
                 {/* <img src={props.image} alt=""/> */}
             </div>
             <div className="feature__text"><h2>{props.title}</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, neque! Eius, ullam voluptas.  Sit.</p></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit.</p></div>
         </div>
     )
 }

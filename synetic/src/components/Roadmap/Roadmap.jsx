@@ -4,6 +4,7 @@ import "../Roadmap/Roadmap.css";
 export default function Roadmap(){
     return(
         <div className="roadmap_block">
+        <div className="roadmap_title">ROADMAP</div>
         <div className="roadmap">
             
             <div className="roadmap_title-box">

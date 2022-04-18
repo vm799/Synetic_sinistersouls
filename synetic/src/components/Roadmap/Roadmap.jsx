@@ -39,7 +39,7 @@ export default function Roadmap(){
               </div>
         </div>
               <div className="roadmap_image">
-                  <img width="100" height="200" src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop" alt=""></img>
+                  <img width="150" height="200" src="https://images.unsplash.com/photo-1507413245164-6160d8298b31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop" alt=""></img>
               </div>
               
         </div>

@@ -5,6 +5,7 @@ import Offer from "./Components/Offer"
 import About from "./Components/About/About"
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
+import Roadmap from "./Components/Roadmap/Roadmap";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 
@@ -17,6 +18,7 @@ function App() {
      <Offer />
      <Header />
      <About />
+     <Roadmap />
      <Contact />
      <Footer />
     </div>

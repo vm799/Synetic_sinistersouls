@@ -1,2 +1,230 @@
+.about{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 4rem;
+   margin-top: 0rem;
+   background: var(--clr-dark);
+   color: var(--clr-light);
+   padding-top: 8rem;
+   padding-bottom: 8rem;
+}
+.about-text{
+   display: flex;
+   width:100%;
+   flex-direction: column;
+   align-items: centre;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--clr-light);
+}
+
+.text-highlight{
+   color: var(--clr-accent);
+   font-size: 2rem;
+}
+.about-image{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+h1 {
+   margin-top: 1em;
+   margin-bottom: 30px;
+   font-family: Audiowide, sans-serif;
+   color: #fff;
+   line-height: 1.2;
+   font-weight: 400;
+   text-transform: uppercase;
+   display: block;
+   font-size: 5em;
+
+}
+
+p{
+  margin-top:0;
+  padding: 0;
+  letter-spacing: 0.6px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family:var(--ff-tertiary);
+
+}
+
+
+
+.about-btn{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   font-size: 0.8em;
+   background: rgb(233,0,179);
+background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
+   shadow: var(--bs);
+   border-radius: 5px;
+    color:#ffffff;
+   text-decoration: none;
+   padding: 1em 3em;
+   font-weight: var(--fw-bold);
+   font-family: var(--ff-primary);
+   margin: 1rem;
+   margin-bottom: 6rem;
+}
+
+.about-btn:hover{
+  background: rgb(0,153,202);
+background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%);
+   transition: all ease 0.5s;
+   color:white;
+ }
+
+
+
+
+@media(min-width:800px){
  .about{
-    background-color: hot pink;}
+   width:100%;
+   height: 100vh;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 8rem;
+ }
+
+
+ .about-text{
+   display: flex;
+   width: 30%;
+   height: 100%;
+   flex-direction: column;
+   align-items:center;
+   justify-content:center;
+   margin-top: 3rem;
+ }
+   
+
+.about-image{
+   width: 70%;
+   height: 120vh;
+  margin-top:6rem;
+}
+
+p{
+   font-size: 1rem;
+ 
+ }
+ 
+
+}
+
+
+#about{
+    width:100%;
+    height: 120vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--clr-dark);
+    margin-top: 8rem;
+  margin-bottom: 8rem;
+  }
+
+
+.about-text{
+  width: 80%;
+	font-size:var(--fs-p);
+	color:var(--clr-dark);
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+ padding: 2em;
+  margin:0;
+}
+
+.about-text p{
+  font-weight:var(--fw-reg);
+  font-family:var(--ff-secondary);
+  font-size:var(--fs-body);
+  margin:0;
+  padding: 0;
+  padding-bottom: 2em;
+  letter-spacing: 0.6px;
+}
+
+.about-text h2{
+  font-weight:var(--fw-reg);
+  font-family:var(--ff-primary);
+  font-size:var(--fs-h2);
+  color:var(--clr-light);
+margin:-10px;
+padding:0;
+}
+
+
+#about button{
+    margin-bottom: 20px;
+	width: 140px;
+	height: 45px;
+	border-radius: 10px;
+	border: none;
+    outline: none;
+    color: #ffffff;
+	background-color:var(--clr-dark);
+}
+#about button:hover{
+    box-shadow: 5px 5px 20px var(--clr-dark);
+	background-color: transparent;
+    transition: all ease 0.3s;
+    color: white;
+}
+
+#about img{
+  width: 100%;
+  border-radius:5px;
+  padding:0;
+  margin:0;
+}
+
+@media(min-width:800px){
+  #about{
+    width:100%;
+    height: 120vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+   
+  }
+
+  .about-text p{
+    padding: 0 1.2em;
+    padding-bottom: 2em;
+    letter-spacing: 0.6px;
+  }
+  
+  .about-text h2{
+    font-weight:var(--fw-reg);
+    font-family:var(--ff-primary);
+    font-size:var(--fs-h2);
+  margin:-10px;
+  padding:0;
+  }
+}

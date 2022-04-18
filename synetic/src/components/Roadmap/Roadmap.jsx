@@ -7,7 +7,7 @@ export default function Roadmap(){
             
             <div className="roadmap_title-box">
             <div className="roadmap_number">
-                1
+            <span> 1 </span>    
             </div>
             
             <div className="roadmap__box">
@@ -22,9 +22,17 @@ export default function Roadmap(){
         <div className="roadmap_main-box">
         <div className="roadmap__phase">
               <div className="roadmap__main-points">
-            Website 1.2
-            Discord community promotion
-            MINTING WAVE NFTs
+                  <ul>
+                      <li>
+                      Website 1.2
+                      </li>
+                      <li>
+                      Discord community promotion
+                      </li>
+                      <li>
+                      MINTING WAVE NFTs
+                      </li>
+                  </ul>
               </div>
               <div className="roadmap_text">
               WAVE NFTs will be 100% pre-minted and launched as an OpenOcean collection

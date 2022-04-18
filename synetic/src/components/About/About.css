@@ -20,17 +20,17 @@
    justify-content: center;
    align-items: center;
    color: white;
-   margin: 1rem;
+   padding: 1rem;
 }
 
-.about-text:before{
+.text-highlight:before{
         content: "";
         display: block;
-        width: 10px;
-        height: 100px;
-        background: #191970;
+        width: 2.5px;
+        height: 60px;
+        background: var(--clr-accent);
         left: 0;
-        top: 50%;
+        top: 0%;
         position: absolute;
 }
 
@@ -38,6 +38,8 @@
    color: var(--clr-accent);
    font-size: 1rem;
    font-family: var(--ff-secondary);
+   position: relative;
+   padding-left: 1rem;
 }
 .about-image{
    width: 100%;
@@ -115,6 +117,16 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
    padding-top: 8rem;
  }
 
+ .text-highlight:before{
+  content: "";
+  display: block;
+  width: 2.5px;
+  height: 80px;
+  background: var(--clr-accent);
+  left: 0;
+  top: 0%;
+  position: absolute;
+}
 
  .about-text{
    display: flex;

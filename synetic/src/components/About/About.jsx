@@ -6,7 +6,14 @@ export default function About(){
         <div className="about">
         <div className="about-text">
             <h1>SYNETIC</h1>
-            <p>Welcome to the SINEVERSE</p>
+            <p className="text-highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempora, 
+                fugit magni cumque magnam nisi officiis.</p>
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Perferendis, sunt laboriosam nesciunt. </p>
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Perferendis, sunt laboriosam nesciunt ipsa sit minima eaque nostrum animi corporis iste totam tenetur eos mollitia quas alias? 
+                Inventore cum enim commodi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, officiis?</p>
        
         <button className="about-btn">CONNECT WALLET</button>
         </div>

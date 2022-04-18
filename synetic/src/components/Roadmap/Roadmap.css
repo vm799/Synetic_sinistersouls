@@ -65,4 +65,5 @@ list-style:square;
 .roadmap_image{
     width: 50%;
     margin: 0.6rem;
+    border-radius: 10%;
 }

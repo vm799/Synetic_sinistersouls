@@ -18,6 +18,8 @@ export default function Footer(){
                         <a class="social-list__link" href="https://uxfolio.com">
                             <i class="fab fa-instagram"></i>
                         </a></li>
+                        <a href="https://www.flaticon.com/free-icons/twitter" 
+                        title="twitter icons">Twitter icons created by Md Tanvirul Haque - Flaticon</a>
         </ul>
       
     </footer>)

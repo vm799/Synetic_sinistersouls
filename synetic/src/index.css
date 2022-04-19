@@ -115,8 +115,8 @@ nav .logo{
  align-self: center;
 }
 
-nav img{
-  padding: 1rem;
+.nav-logo{
+  margin: 1rem;
 }
 
 @media (min-width:800px){

@@ -7,7 +7,7 @@ export default function Offer(){
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Laborum hic nam atque maiores modi fugiat.</p></div>
                 <div className="pr-btns">
-                    <a href="#" className="pr-btn">ENTER HERE</a>
+                    <a href="https://twitter.com/_sinister_souls" className="pr-btn">ENTER HERE</a>
                 </div>
            
             

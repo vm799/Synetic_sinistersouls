@@ -30,7 +30,7 @@ duration={1000}>NFT</Link></li>
 duration={1000}>SYNEVERSE</Link></li>
 </ul>
 
- <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons.flaticon.com/png/512/3256/premium/3256013.png?token=exp=1650390671~hmac=d7386b64ab8b0e08c5bae5fb25c81b3f" alt = "twitter"></img></a>
+ <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt = "twitter"> </img></a>
  <a href="https://twitter.com/_sinister_souls" className= "nav-logo"> <img height="20px" with="20px" src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt = "twitter"></img></a>
  </nav>
     )

@@ -91,17 +91,17 @@ body {
   font-size: 0.6rem;
   font-weight:bold;
   letter-spacing: 2px;
-  margin:1px;
-  padding: 0.1em;
+  /* margin:1px;
+  padding: 0.1em; */
 }
 
 nav ul li a:hover{
-	border-bottom: 2.5px solid var(--clr-accent);
-  color:var(--clr-accent-secondary);
-	border-shadow: 5px 10px 30px var(--clr-accent);
+	border-bottom: 1px solid var(--clr-accent);
+  color:var(--clr-accent_secondary);
+	box-shadow: 5px 10px 30px var(--clr-accent);
 	transition: all ease 0.2s;
   cursor:pointer;
-  font-size: var(--fs-h3);
+  
 }
 
 

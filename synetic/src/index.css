@@ -186,13 +186,11 @@ margin-bottom: -0.5em;
 
 .header-btn{
 
-
+width: 150px;
 	display: flex;
 	justify-content: center;
     align-items: center;
     font-size: 1em;
-
-   
 background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
     border-radius: 5px;
 	  color:#ffffff;
@@ -201,6 +199,11 @@ background: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%
 margin-bottom:1rem;
 }
 
+.header-btn_section{
+  display: flex;
+	justify-content: center;
+    align-items: center;
+}
 .details{
   font-weight: 300;
   font-family: var(--ff-secondary);

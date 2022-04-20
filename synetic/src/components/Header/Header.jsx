@@ -10,8 +10,8 @@ export default function Header(){
               
              <p className="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, saepe?</p>
              <p className="details"> Lorem ipsum dolor sit amet.</p>
-             <div className="header-btn">
-                 <a href="mailto:sinistersouls2922@gmail.com" className="header-btn">Lorem, ipsum dolor.</a>
+             <div className="header-btn_section">
+                 <a href="mailto:sinistersouls2922@gmail.com" className="header-btn">CONTACT US</a>
              </div>
                 </div></div>
       

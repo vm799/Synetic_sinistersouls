@@ -516,8 +516,8 @@ footer .social-list{
 
 }
 
-.social-list_link:hover{
-  text-shadow: 5px 5px 10px var(--clr-accent_second);
+.social-list__item:hover{
+text-shadow: 5px 5px 10px var(--clr-accent);
  color: var(--clr-accent);
 }
 
@@ -537,7 +537,7 @@ font-size: var(--fs-h3);
 
 .footer__link:hover{
   text-shadow: 5px 5px 10px var(--clr-accent_second);
-  color: var(--clr-accent_secondary);
+  color: white;
   }
 
 footer i{

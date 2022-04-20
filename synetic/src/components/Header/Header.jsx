@@ -6,12 +6,12 @@ export default function Header(){
           
             <div className="header-heading">
                <h2>NFT GAMING</h2>
-             <h1>SYNETIC<span> sinister</span>souls</h1>
+             <h1 className="header-main">SYNETIC<span> sinister</span>souls</h1>
               
              <p className="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, saepe?</p>
              <p className="details"> Lorem ipsum dolor sit amet.</p>
              <div className="header-btn">
-                 <a href="mailto:vaishalimehmi@yahoo.co.uk" className="header-btn">Lorem, ipsum dolor.</a>
+                 <a href="mailto:sinistersouls2922@gmail.com" className="header-btn">Lorem, ipsum dolor.</a>
              </div>
                 </div></div>
       

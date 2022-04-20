@@ -253,7 +253,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
 
 #features h1{
   color: #fff;
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .feature-container{
@@ -372,12 +372,13 @@ text-align:center;
 .pr-heading span{
   color: var(--clr-accent_second);
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
  .pr-heading p{
   color:white;
-  font-weight:var(--fw-bold);
+  font-weight:var(--fw-reg);
+  font-family: var(--ff-secondary);
   padding:0;
   margin-top:-1em;
   margin-bottom: 2em;
@@ -512,6 +513,12 @@ footer .social-list{
   display:flex;
  flex-direction:row;
  color: var(--clr-accent_second);
+
+}
+
+.social-list_link:hover{
+  text-shadow: 5px 5px 10px var(--clr-accent_second);
+ color: var(--clr-accent);
 }
 
 footer .social-list__item{
@@ -524,9 +531,15 @@ footer li{
 
 footer .footer__link{
 text-decoration: none;
-color: var(--clr-accent_second);
+color: var(--clr-accent);
 font-size: var(--fs-h3);
 }
+
+.footer__link:hover{
+  text-shadow: 5px 5px 10px var(--clr-accent_second);
+  color: var(--clr-accent_secondary);
+  }
+
 footer i{
   color: var(--clr-accent_second);
   font-size: var(--fs-h3);

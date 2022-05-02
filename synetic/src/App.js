@@ -9,7 +9,7 @@ import Roadmap from "./Components/Roadmap/Roadmap";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import ImageSlider from "./Components/ImageSlider/ImageSlider";
-
+import TextSlider from "./Components/TextSlider/TextSlider";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
      <Hero />
      <ImageSlider />
      <Feature />
+     <TextSlider />
      <Offer />
      <Header />
      <About />

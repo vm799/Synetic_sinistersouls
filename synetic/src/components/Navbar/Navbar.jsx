@@ -24,7 +24,7 @@ export default function Navbar(){
 <ul className="menu">
 <li>
     <Link to="main" smooth={true}
-duration={1000}>NFT</Link></li>
+duration={1000}>MINT</Link></li>
 {/* <li> */}
     {/* <Link to="Features"smooth={true}
 duration={1000}>SYNEVERSE</Link></li> */}

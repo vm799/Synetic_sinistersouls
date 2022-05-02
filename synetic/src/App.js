@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Components/Navbar/Navbar"
 import Feature from "./Components/Feature/Feature"
-import Offer from "./Components/Offer"
+import Syneverse from "./Components/Syneverse/Syneverse"
 import About from "./Components/About/About"
-import Header from "./Components/Header/Header";
+import NFTgame from "./Components/NFTgame/NFTgame";
 import Hero from "./Components/Hero/Hero";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Contact from "./Components/Contact/Contact";
@@ -19,8 +19,8 @@ function App() {
      <ImageSlider />
      <Feature />
      <TextSlider />
-     <Offer />
-     <Header />
+     <Syneverse />
+     <NFTgame />
      <About />
      <Roadmap />
      <Contact />

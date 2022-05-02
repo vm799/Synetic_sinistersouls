@@ -1,3 +1,14 @@
-background-color {
-    color: hotpink;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: hotpink;
+    color:rgba(0, 0, 0, 0.709);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }

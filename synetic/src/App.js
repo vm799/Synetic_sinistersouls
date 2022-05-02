@@ -8,7 +8,7 @@ import Hero from "./Components/Hero/Hero";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import ImageSlider from "./Components/ImageSlider/ImageSlider";
+// import ImageSlider from "./Components/ImageSlider/ImageSlider";
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
      <Navbar />
      <Hero />
      <Feature />
-     <ImageSlider />
+     {/* <ImageSlider /> */}
      <Offer />
      <Header />
      <About />

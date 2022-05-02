@@ -7,7 +7,7 @@ export default function ImageSlider(){
     <div class="marquee">
   <ul class="marquee-content">
    <li>SYNETIC   </li>
-   <li style="color: var(--clr-accent)">SINISTER SOULS</li>
+   <li> <span>SINISTER</span>  SOULS</li>
    <li>SYNETIC   </li>
    <li>SINISTER SOULS</li>
    

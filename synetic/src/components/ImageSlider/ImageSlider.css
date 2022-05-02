@@ -2,7 +2,6 @@
 
 .image-slider{
     /* background-color: rgb(249, 0, 124); */
-    color:rgba(0, 0, 0, 0.709);
     height:100vh;
     display:flex;
     justify-content:center;
@@ -61,4 +60,6 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
     padding: 2rem;
 }
 
-
+.marquee-content span {
+    color: var(--clr-accent);
+}

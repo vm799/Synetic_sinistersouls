@@ -8,6 +8,8 @@ import Hero from "./Components/Hero/Hero";
 import Roadmap from "./Components/Roadmap/Roadmap";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
+import ImageSlider from "./Components/ImageSlider/ImageSlider";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
      <Navbar />
      <Hero />
      <Feature />
+     <ImageSlider />
      <Offer />
      <Header />
      <About />

@@ -69,7 +69,7 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
     animation-play-state: paused;
 }
 
-img {
-    height: 5rem;
-    width: 3rem;
+.marquee-content li img {
+    height: 30rem;
+    width: 25rem;
 }

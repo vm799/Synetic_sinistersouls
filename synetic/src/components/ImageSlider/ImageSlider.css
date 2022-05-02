@@ -12,7 +12,6 @@
 .marquee{
     width:80vw;
     height:20vh;
-    background-color: rgb(21, 21, 21);
     /* overflow:hidden; */
 }
 
@@ -20,13 +19,23 @@
     list-style: none;
     height:100%;
     display:flex;
-    /* animation: */
+    animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+    0% { transform: translate(80vw); }
+    100% { transform:translate(-180vw);}
 }
 
 .marquee-content li {
     border:5px solid rgb(249, 0, 124);
     width:20vw;
-    flex-shrink: 1;
+    flex-shrink: 0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 8rem;
+    white-space: nowrap;
 }
 
 

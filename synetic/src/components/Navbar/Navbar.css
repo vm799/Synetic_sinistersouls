@@ -35,6 +35,7 @@ justify-content: space-between;
     list-style-type:none;
     text-transform: uppercase;
     padding: 1em; 
+    border: 1px solid teal;
   }
   
   .nav li a{
@@ -44,6 +45,7 @@ justify-content: space-between;
     font-weight:bold;
     letter-spacing: 2px;
     padding:0.5rem;
+    border: 1px solid pink;
   }
   
 a .social-list__link{
@@ -68,7 +70,7 @@ a .social-list__link{
       text-shadow: 5px 10px 30px var(--clr-accent);
       transition: all ease 0.2s;
       cursor:pointer;
-    
+      border: 1px solid red;
   }
   
   

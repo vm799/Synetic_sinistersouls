@@ -1,4 +1,5 @@
 import React from "react";
+import "../FeatureBox/FeatureBox.css"
 
 export default function FeatureBox(props){
     return(

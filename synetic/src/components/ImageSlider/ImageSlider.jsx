@@ -9,7 +9,8 @@ export default function ImageSlider(){
    <li>SYNETIC   </li>
    <li> <span>SINISTER</span>  SOULS</li>
    <li>SYNETIC   </li>
-   <li>SINISTER SOULS</li>
+   <li> <span>SINISTER</span>  SOULS</li>
+   
    
   
    

@@ -2,10 +2,11 @@
 
 .image-slider{
     /* background-color: rgb(249, 0, 124); */
-    height:100vh;
+    /* height:100vh; */
     display:flex;
     justify-content:center;
     align-items: center;
+    margin-top: 4rem;
 }
 
 .marquee{
@@ -38,7 +39,7 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
     list-style: none;
     height:100%;
     display:flex;
-    animation: scrolling 10s linear infinite;
+    animation: scrolling 20s linear infinite;
     font-family: var(--ff-primary);
     color:white;
 }
@@ -63,3 +64,8 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
 .marquee-content span {
     color: var(--clr-accent);
 }
+
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+

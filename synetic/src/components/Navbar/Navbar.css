@@ -46,7 +46,7 @@ justify-content: space-between;
     padding:0.5rem;
   }
   
-.social-list__item{
+a .social-list__link{
       color: hotpink;
       border: 5px solid pink;
   }

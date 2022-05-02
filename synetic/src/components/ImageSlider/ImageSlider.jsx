@@ -6,10 +6,11 @@ export default function ImageSlider(){
 <div class="image-slider">
     <div class="marquee">
   <ul class="marquee-content">
-   <li>SYNETIC   </li>
-   <li> <span>SINISTER</span>  SOULS</li>
-   <li>SYNETIC   </li>
-   <li> <span>SINISTER</span>  SOULS</li>
+   <li><img src="./images/allet" alt="alleyway"></img>  </li>
+   <li><img src="./images/allet" alt="alleyway"></img>  </li>
+   <li><img src="./images/allet" alt="alleyway"></img>  </li>
+   <li><img src="./images/allet" alt="alleyway"></img>  </li>
+  
    
    
   

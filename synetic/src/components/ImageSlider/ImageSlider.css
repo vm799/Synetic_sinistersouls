@@ -1,7 +1,7 @@
 
 
 .image-slider{
-    background-color: rgb(249, 0, 124);
+    /* background-color: rgb(249, 0, 124); */
     color:rgba(0, 0, 0, 0.709);
     height:100vh;
     display:flex;
@@ -10,9 +10,29 @@
 }
 
 .marquee{
-    width:80vw;
-    height:20vh;
+    width:100vw;
+    height:30vh;
     overflow:hidden;
+    position:relative;
+}
+
+.marquee:before, .marquee:after{
+position:absolute;
+top:0;
+width:10rem;
+height:100%;
+content:"";
+z-index:1;
+} 
+
+.marquee:before{
+left:0;
+background: linear-gradient(to right, rgb(0, 0, 0) 0%, transparent 100%);
+} 
+
+.marquee:after{
+right:0;
+background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);    
 }
 
 .marquee-content{
@@ -30,7 +50,7 @@
 }
 
 .marquee-content li {
-    border:5px solid rgb(249, 0, 124);
+    /* border:5px solid rgb(249, 0, 124); */
     /* width:20vw; */
     flex-shrink: 0;
     display:flex;
@@ -38,6 +58,7 @@
     align-items: center;
     font-size: 8rem;
     white-space: nowrap;
+    padding: 2rem;
 }
 
 

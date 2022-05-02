@@ -2,24 +2,26 @@
 
 .image-slider{
     /* background-color: rgb(249, 0, 124); */
-    /* height:100vh; */
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items: center;
     margin-top: 4rem;
+    border: 5px solid tomato;
 }
 
 .marquee{
     width:100vw;
-    height:30vh;
+    /* height:30vh; */
     overflow:hidden;
     position:relative;
+  
 }
 
 .marquee:before, .marquee:after{
 position:absolute;
 top:0;
-width:10rem;
+width:20rem;
 height:100%;
 content:"";
 z-index:1;
@@ -58,7 +60,7 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
     align-items: center;
     font-size: 8rem;
     white-space: nowrap;
-    padding: 2rem;
+  
 }
 
 .marquee-content span {
@@ -69,7 +71,9 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
     animation-play-state: paused;
 }
 
-.marquee-content li img {
-    height: 30rem;
+.marquee-content img{
+    height: 100%;
     width: 25rem;
+    object-fit:cover;
+    border: 5px solid tomato;
 }

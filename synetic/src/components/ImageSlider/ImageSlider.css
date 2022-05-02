@@ -12,7 +12,7 @@
 .marquee{
     width:80vw;
     height:20vh;
-    /* overflow:hidden; */
+    overflow:hidden;
 }
 
 .marquee-content{
@@ -20,16 +20,18 @@
     height:100%;
     display:flex;
     animation: scrolling 10s linear infinite;
+    font-family: var(--ff-primary);
+    color:white;
 }
 
 @keyframes scrolling {
-    0% { transform: translate(80vw); }
+    0% { transform: translate(0); }
     100% { transform:translate(-180vw);}
 }
 
 .marquee-content li {
     border:5px solid rgb(249, 0, 124);
-    width:20vw;
+    /* width:20vw; */
     flex-shrink: 0;
     display:flex;
     justify-content:center;

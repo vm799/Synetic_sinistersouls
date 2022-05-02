@@ -29,11 +29,12 @@ duration={1000}>NFT</Link></li>
     {/* <Link to="Features"smooth={true}
 duration={1000}>SYNEVERSE</Link></li> */}
 
-<li class="social-list__item">
+<li class="social-list__item">JOIN US 
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                             <i class="fab fa-twitter"></i>
                         </a></li>
-                        <li class="social-list__item">
+
+                        <li class="social-list__item">FOLLOW US 
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">
                             <i class="fab fa-discord"></i>
                         </a></li>

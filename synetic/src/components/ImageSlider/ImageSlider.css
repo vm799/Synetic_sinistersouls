@@ -29,12 +29,12 @@ z-index:1;
 
 .marquee_image:before{
 left:0;
-background: linear-gradient(to right, rgb(0, 0, 0) 0%, transparent 100%);
+background: linear-gradient(to right, var(--clr-dark) 0%, transparent 100%);
 } 
 
 .marquee_image:after{
 right:0;
-background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);    
+background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);    
 }
 
 .marquee_image-content{
@@ -72,7 +72,7 @@ background: linear-gradient(to left, rgb(0, 0, 0) 0%, transparent 100%);
 }
 
 .marquee_image-content img{
-    height: 80%;
+    height: 60%;
     width: 25rem;
     object-fit:cover;
     padding-inline: 1rem;

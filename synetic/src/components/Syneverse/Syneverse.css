@@ -21,9 +21,8 @@
     content: "";
     background: radial-gradient(ellipse at center, rgba(147, 130, 95, 0.38) 0%, rgb(0, 0, 0) 100%);
     width: 65%;
-    height: 70%;
-    z-index: 1;
-    bottom: 162px;
+    height: 35%;
+    bottom: 300px;
   }
   
   .syneverse-heading{
@@ -64,6 +63,7 @@
     margin-bottom: 1em;
       letter-spacing: 2px;
       color:#ffffff;
+      
   }
   
   .syneverse-btn{
@@ -84,7 +84,7 @@
   .syneverse-btn:hover{
       background-color: var(--clr-accent);
       transition: all ease 0.5s;
-      color:var(--clr-accent);
+      color:white;
       border: 2px solid hsl(43, 100%, 54%);
     }
   

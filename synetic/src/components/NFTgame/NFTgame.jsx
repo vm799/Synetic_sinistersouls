@@ -14,7 +14,8 @@ export default function NFTgame (){
              <div className="NFTgame-btn_section">
                  <a href="mailto:sinistersouls2922@gmail.com" className="NFTgame-btn">CONTACT US</a>
              </div>
-                </div></div>
+         </div>
+     </div>
       
     )
 }

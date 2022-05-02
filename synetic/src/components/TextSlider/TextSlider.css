@@ -59,7 +59,8 @@ background: linear-gradient(to left, var(--clr-dark) 0%, transparent 100%);
     white-space: nowrap;
     padding: 2rem;
     color: var(--clr-dark);
-    text-stroke: 2px white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 .marquee-content span {

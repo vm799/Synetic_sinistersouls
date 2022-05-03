@@ -37,6 +37,7 @@
   background: -webkit-linear-gradient(var(--clr-accent), var(--clr-accent_second));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 2rem;
 }
 
 .team-container{
@@ -55,8 +56,12 @@
   .straplines p{
     font-size: 2rem;
     font-weight: 900;
-  
   }
+
+  .text-body h2{
+margin-top: 0;
+  }
+
   .team__title p{
     font-size: 2rem;
     font-weight:900;

@@ -4,8 +4,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding-top: 4rem;
-   margin-top: 0rem;
+   margin-top: 4rem;
    background: var(--clr-dark);
    color: var(--clr-light);
    padding-top: 8rem;
@@ -17,15 +16,17 @@
    width:100%;
    flex-direction: column;
    display: flex;
- border: 5px solid pink;
    color: white;
    padding: 1rem;
    border: 5px solid tomato;
+   margin-top:2rem;
 }
 
 .highlight-text{
 color: var(--clr-accent);
 font-family: var(--ff-secondary);
+font-weight: 900;
+font-size: larger;
 }
 
 

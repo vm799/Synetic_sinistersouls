@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
 import "../Navbar/Navbar.css"
 
 export default function Navbar(){
@@ -22,12 +22,12 @@ export default function Navbar(){
 </a>
 
 <ul className="menu">
-<li>
-    <Link to="main" smooth={true}
+
+    {/* <Link to="main" smooth={true}
 duration={1000}>MINT</Link></li>
 {/* <li> */}
     {/* <Link to="Features"smooth={true}
-duration={1000}>SYNEVERSE</Link></li> */}
+duration={1000}>SYNEVERSE</Link></li> */} 
 
 <li class="social-list__item">JOIN US 
                         <a class="social-list__link" href="https://twitter.com/_sinister_souls">

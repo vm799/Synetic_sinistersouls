@@ -83,7 +83,7 @@ a .social-list__link{
 
   nav ul li a:hover{
       /* border-bottom: 1px solid var(--clr-accent); */
-      color:var(--clr-accent_secondary);
+      color:var(--clr-accent_second);
       text-shadow: 5px 10px 30px var(--clr-accent);
       transition: all ease 0.2s;
       cursor:pointer;

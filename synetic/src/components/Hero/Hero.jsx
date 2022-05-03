@@ -6,8 +6,10 @@ export default function Hero(){
         <div className="hero section-transition">
             <div className="hero-text">
                 <h1>SYNETIC</h1>
-                <p>Welcome to the future.</p>
-           
+                <h3>Welcome to the future.</h3>
+                <p> A virtual escape from the harsh confines and constraints of
+                 modern day reality on an ingenious revolutionary new digital platform. 
+                </p>
             <button className="hero-btn">CONNECT WALLET</button>
             </div>
 

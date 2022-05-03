@@ -35,8 +35,8 @@ justify-content: space-between;
 
     @media (min-width:800px){
     .nav li {
-       
-        font-size:1.5rem;
+       color: var(--clr-accent);
+        font-size:1rem;
         }
     }
   
@@ -45,7 +45,6 @@ justify-content: space-between;
     align-content:space-around;
     list-style-type:none;
     text-transform: uppercase;
-    padding-left:0.5rem;
   }
   
   .nav li a{
@@ -69,9 +68,12 @@ a .social-list__link{
     display:flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
+    margin-left: 10rem;
+    color: white;
+    font-weight: bolder;
   }
 
+ 
 
   nav ul li a:hover{
       /* border-bottom: 1px solid var(--clr-accent); */
@@ -79,7 +81,6 @@ a .social-list__link{
       text-shadow: 5px 10px 30px var(--clr-accent);
       transition: all ease 0.2s;
       cursor:pointer;
-      border: 1px solid red;
   }
   
   

@@ -70,18 +70,17 @@ a .social-list__link{
     justify-content: center;
     margin-left: 10rem;
     color: white;
-    font-weight: 600;
+    font-weight: 00;
   }
 
   .social-list__item:hover{
     border: 1px solid white;
     color: white;
-   color: radial-gradient(circle, rgba(233,0,179,1) 0%, rgba(0,153,202,1) 100%);
-    font-weight: 600;
+    font-weight: 900;
     font-family: var(--ff-secondary);
     background-color: var(--clr-accent_second);
   }
-
+  
 
   nav ul li a:hover{
       /* border-bottom: 1px solid var(--clr-accent); */

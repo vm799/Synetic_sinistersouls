@@ -11,15 +11,12 @@ export default function About(){
         </div>
 
         <div className="about-text">
-            
-            <p className="text-highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempora, 
-                fugit magni cumque magnam nisi officiis.</p>
-            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Perferendis, sunt laboriosam nesciunt. </p>
-            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Perferendis, sunt laboriosam nesciunt ipsa sit minima eaque nostrum animi corporis iste totam tenetur eos mollitia quas alias? 
-                Inventore cum enim commodi.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, officiis?</p>
+            <p>Built on the blockchain.</p>
+            <p className="highlight-text"> A new open world multi-planetary system created with endless possibilities for escape. </p>
+            <p>Live a second digital reality where nothing is off limits. </p>
+             
+              <p> Use your Sinister Soul NFTs as playable characters</p>
+            <p className="highlight-text">EXPLORE. BUILD. OWN. EVOLVE.</p>
        
         <button className="about-btn">CONNECT WALLET</button>
         </div>

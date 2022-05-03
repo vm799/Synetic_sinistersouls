@@ -33,15 +33,14 @@ export default function Footer(){
     </a>
 
       <div class="footer__social">
-        <a href="#">
+        {/* <a href="#">
             <i class="fa 
             fa-facebook" alt="facebook"></i>
         </a>
 
-        <a href="#" class="fa fa-pinterest" alt="pinterest" ></a>
+        <a href="#" class="fa fa-pinterest" alt="pinterest" ></a> */}
 
-        <a href="#" class="fa 
-        fa-instagram" alt="instagram">
+        <a href="#" class="fab fa-discord" alt="discord">
         </a>
         
         <a href="#">

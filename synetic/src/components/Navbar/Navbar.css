@@ -70,10 +70,16 @@ a .social-list__link{
     justify-content: center;
     margin-left: 10rem;
     color: white;
-    font-weight: bolder;
+    font-weight: 600;
   }
 
- 
+  .social-list__item:hover{
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    font-family: var(--ff-tertiary);
+    background-color: var(--clr-light);
+  }
 
   nav ul li a:hover{
       /* border-bottom: 1px solid var(--clr-accent); */

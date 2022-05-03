@@ -7,8 +7,8 @@ export default function Team(){
         <div id="team">
             <div className="text-body">
             <h1>Meet The Team</h1>
-            <h2>Created by 2 friends with common vision of disrupting reality.</h2>
-             
+            {/* <h2>Created by 2 friends with common vision of disrupting reality.</h2>
+              */}
 
                 <div className="straplines">
                 <p> Join Us. </p>

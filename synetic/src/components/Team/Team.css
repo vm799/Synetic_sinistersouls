@@ -56,12 +56,13 @@
   .straplines p{
     font-size: 2rem;
     font-weight: 900;
+    margin-top: 0;
+    padding:0;
   }
 
-  .text-body h2{
-margin-top: 0;
-padding:0;
-  }
+  /* .text-body h2{
+
+  } */
 
   .team__title p{
     font-size: 2rem;

@@ -21,6 +21,16 @@
   color:#fff;
 }
 
+.text-body{
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.text-body h2 {
+  font-size: 1.5rem;
+  color: var(--clr-accent);
+}
 .straplines p{
   font-family: var(--ff-secondary);
   font-weight: 300;
@@ -42,7 +52,11 @@
   display: flex;
   flex-direction:row;
   }
-
+  .straplines p{
+    font-size: 2rem;
+    font-weight: 900;
+  
+  }
   .team__title p{
     font-size: 2rem;
     font-weight:900;

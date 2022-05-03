@@ -23,7 +23,11 @@
 
 .straplines p{
   font-family: var(--ff-secondary);
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .team-container{
@@ -39,6 +43,13 @@
   display: flex;
   flex-direction:row;
   }
+  .team__title {
+    font-size: 3rem;
+    font-weight:900;
+   margin-top: 3rem;
+   color:var(--clr-accent);
+  }
+
 }
 
 .team__box{

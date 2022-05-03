@@ -15,11 +15,11 @@ export default function Team(){
                 <p> Join Us. </p>
                 <p> Let's disrupt together.</p> 
                 </div>
-                
+
             <div className="team-container">
-                <TeamBox title="Creator Lex0" text="Into retro gaming and sushi"/>
-                <TeamBox title="Creator Ruyu" text="American Muscle car mad and master of my own ship"/>
-                <TeamBox title="Builder Panthera" text="Fav character: Yoshimitsu and deconstructed apple pies" />
+                <TeamBox title="Creator Lex0" text="Into retro gaming,sushi and racing dolphins"/>
+                <TeamBox title="Creator Ruyu" text="American Muscle car mad and racing snails"/>
+                <TeamBox title="Builder Panthera" text="Fav character: Yoshimitsu, deconstructed apple pies and demon dj" />
         
 
                 </div>

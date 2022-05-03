@@ -7,8 +7,11 @@ export default function TeamBox(props){
             <div className="team__box-img">
                 {/* <img src={props.image} alt=""/> */}
             </div>
-            <div className="team__text"><h2>{props.title}</h2>
-        <p>Lorem ipsum dolor sit amet consectetur.</p></div>
+            <div className="team__text">
+                <p>{props.text}</p></div>
+            <div className="team__text">
+                <p>{props.text}</p>
+        </div>
         </div>
     )
 }

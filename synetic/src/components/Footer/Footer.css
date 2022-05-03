@@ -146,10 +146,9 @@
 
 
   .footer__links a{
-    line-height: 1.5;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--clr-accent);
-    color: var(--clr-dark);
+    -webkit-text-stroke-color: var(--clr-dark);
+    color: var(--clr-accent);
     font-size: 1.8rem;
   }
   .footer__links a:hover {

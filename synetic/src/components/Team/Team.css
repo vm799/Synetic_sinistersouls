@@ -24,8 +24,7 @@
 .straplines p{
   font-family: var(--ff-secondary);
   font-weight: 300;
-  font-size: 72px;
-  background: -webkit-linear-gradient(#eee, #333);
+  background: -webkit-linear-gradient(var(--clr-accent), var(--clr-accent_second));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -43,11 +42,13 @@
   display: flex;
   flex-direction:row;
   }
-  .team__title {
-    font-size: 3rem;
+
+  .team__title p{
+    font-size: 2rem;
     font-weight:900;
    margin-top: 3rem;
    color:var(--clr-accent);
+   font-family: var(--ff-primary);
   }
 
 }

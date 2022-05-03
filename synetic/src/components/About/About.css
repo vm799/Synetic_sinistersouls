@@ -26,7 +26,10 @@ font-family: var(--ff-secondary);
 font-weight: 900;
 font-size: larger;
 margin-top: 1rem;
+position: relative;
+padding-left: 1rem;
 }
+
 
 
 .about-image{
@@ -42,34 +45,27 @@ margin-top: 1rem;
         content: "";
         display: block;
         width: 2.5px;
-        height: 60px;
+        height: 4.5rem;
         background: var(--clr-accent);
         left: 0;
         top: 0%;
         position: absolute;
 }
 
-.text-highlight{
-   color: var(--clr-accent);
-   font-size: 1rem;
-   font-family: var(--ff-secondary);
-   position: relative;
-   padding-left: 1rem;
-}
 
 
 
-h1 {
+
+.about-image h1 {
    margin-bottom: 4rem;
    font-family: Audiowide, sans-serif;
    color: var(--clr-dark);
    -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: white;
-   line-height: 1.2;
+   -webkit-text-stroke-color: var(--clr-accent);
    font-weight: 400;
    text-transform: uppercase;
    display: block;
-   font-size: 5em;
+   font-size: 3em;
    
 }
 
@@ -143,9 +139,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
    width: 60%;
    height: 100%;
    flex-direction: column;
-   align-items:center;
-   justify-content:center;
-  
+  margin-top: 1rem;
  }
    
 

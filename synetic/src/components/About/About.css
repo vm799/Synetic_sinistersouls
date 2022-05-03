@@ -4,10 +4,9 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-top: 4rem;
+   margin-top: 8rem;
    background: var(--clr-dark);
    color: var(--clr-light);
-   padding-top: 8rem;
    padding-bottom: 8rem;
    border: 5px solid teal;
 }
@@ -27,6 +26,7 @@ color: var(--clr-accent);
 font-family: var(--ff-secondary);
 font-weight: 900;
 font-size: larger;
+margin-top: 1rem;
 }
 
 
@@ -34,10 +34,7 @@ font-size: larger;
    display: flex;
    width:100%;
    flex-direction: column;
-   align-items: centre;
    display: flex;
-   justify-content: center;
-   align-items: center;
    color: white;
    padding: 1rem;
 }
@@ -64,7 +61,7 @@ font-size: larger;
 
 
 h1 {
-   margin-bottom: 30px;
+   margin-bottom: 4rem;
    font-family: Audiowide, sans-serif;
    color: #fff;
    line-height: 1.2;
@@ -147,7 +144,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
    flex-direction: column;
    align-items:center;
    justify-content:center;
-   margin-top: 3rem;
+  
  }
    
 

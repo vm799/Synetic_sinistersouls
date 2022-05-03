@@ -21,8 +21,9 @@
   color:#fff;
 }
 
-.straplines{
+.straplines p{
   font-family: var(--ff-secondary);
+  font-weight: 100;
 }
 
 .team-container{

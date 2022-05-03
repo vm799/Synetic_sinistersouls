@@ -17,11 +17,16 @@
    flex-direction: column;
    align-items: centre;
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
    color: white;
    padding: 1rem;
 }
+.highlight-text{
+color: var(--clr-accent);
+font-family: var(--ff-secondary);
+}
+
 
 .about-image{
    display: flex;

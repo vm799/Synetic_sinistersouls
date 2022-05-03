@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar"
-import Feature from "./components/Feature/Feature"
+import Team from "./components/Team/Team"
 import Syneverse from "./components/Syneverse/Syneverse"
 import About from "./components/About/About"
 import NFTgame from "./components/NFTgame/NFTgame";
@@ -17,7 +17,7 @@ function App() {
      <Navbar />
      <Hero />
      <ImageSlider />
-     <Feature />
+     <Team />
      <TextSlider />
      <Syneverse />
      <NFTgame />

@@ -63,9 +63,9 @@ export default function Footer(){
         <a href="#">Privacy Policy</a>
       </div>
 
-      <div class="footer__cta">
+      {/* <div class="footer__cta">
         <a href="#" class="button">Request Invite</a>
-      </div>
+      </div> */}
 
       
     </div>

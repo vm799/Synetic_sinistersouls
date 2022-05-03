@@ -6,7 +6,7 @@ export default function Hero(){
         <div className="hero section-transition">
             <div className="hero-text">
                 <h1>SYNETIC</h1>
-                <p>Welcome to the SINEVERSE</p>
+                <p>Welcome to the future.</p>
            
             <button className="hero-btn">CONNECT WALLET</button>
             </div>

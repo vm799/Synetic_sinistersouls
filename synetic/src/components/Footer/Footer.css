@@ -59,7 +59,7 @@
 
 
    .footer {
-    background-color: var(--clr-accent);
+    background-color: var(--clr-dark);
     padding: 2.5rem;
     text-align: center;
     color: white;
@@ -68,7 +68,7 @@
       text-decoration: none;
       margin:0;
       padding:0;
-      color: black;
+      color: white;
       font-size: 2rem;
       
   }
@@ -90,8 +90,8 @@
     font-family: var(--ff-primary);
     font-size: 3rem;
     line-height: 2rem;
-    color: black;
-    text-shadow: 0px 0px 3px #fcfcfd;
+    color: white;
+    text-shadow: 0px 0px 3px var(--clr-accent);
   }
  
 
@@ -116,16 +116,16 @@
 
   .footer__social a {
     height: 1rem;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 30px;
-    color: black;
+    color: white;
     font-size: 1rem;
     padding: 0.75rem 0.5rem;
   }
 
   .footer__social a:hover {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid teal;
+    color: teal;
   }
 
   .footer__social i {
@@ -157,7 +157,7 @@
 
     .footer__links a{
     
-      color: black;
+      color: var(--clr-accent);
         display: flex;
         flex-direction: column;
         align-items:flex-start;
@@ -170,8 +170,8 @@
 
   .footer__links a{
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--clr-dark);
-    color: var(--clr-accent);
+    -webkit-text-stroke-color: white;
+    color: var(--clr-dark);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -223,7 +223,7 @@
   }
   .footer .attribution a {
     font-size: 1rem;
-    color:black;
+    color:hotpink;
     font-weight: bolder;
     margin-top:1rem;
   }

@@ -40,12 +40,17 @@ export default function Footer(){
 
         <a href="#" class="fa fa-pinterest" alt="pinterest" ></a> */}
 
-        <a href="#" class="fab fa-discord" alt="discord">
+        <a href="#">
+           <i class="fab fa-brands fa-discord" 
+           alt="discord">
+             </i>JOIN US
         </a>
         
         <a href="#">
-          <i class="fa 
-          fa-brands fa-twitter" alt="twitter"></i>
+          <i class="fab 
+          fa-brands fa-twitter" 
+          alt="twitter">
+            </i>FOLLOW US
         </a>
         
       </div>

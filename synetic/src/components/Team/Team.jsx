@@ -17,7 +17,7 @@ export default function Team(){
             </div>
             <div className="team-container">
                 <TeamBox title="Creator Lex0" text="Into retro gaming,sushi and racing dolphins"/>
-                <TeamBox title="Creator Ruyu" text="American Muscle car mad and racing snails"/>
+                <TeamBox title="Creator Ruyu" text="American Muscle car mad and the Art of War"/>
                 <TeamBox title="Builder Panthera" text="Fav character: Yoshimitsu, deconstructed apple pies" />
         
 

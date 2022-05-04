@@ -70,6 +70,7 @@
       padding:0;
       color: black;
       font-size: 2rem;
+      
   }
 
 
@@ -111,37 +112,59 @@
       align-self: top;
     }
   }
+
+
   .footer__social a {
-    display: inline-block;
     height: 1rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: black;
+    font-size: 1rem;
+    padding: 0.75rem 0.5rem;
   }
+
+  .footer__social a:hover {
+    border: 1px solid white;
+    color: white;
+  }
+
+  .footer__social i {
+   margin-right: 0.75rem;
+  }
+
+
   .footer__social a:not(:last-child) {
     margin-right: 1rem;
   }
-  .footer__links a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1rem;
-    font-family: var(--ff-secondary);
-  }
+  
+
+
   @media (min-width: 64em) {
     .footer__links {
       align-items: middle;
     }
-  }
-  @media (min-width: 64em) {
+  
     .footer__links.col1 {
       grid-area: links1;
+      margin: 1rem;
     }
-  }
+  
+
   .footer__links.col2 {
-    margin-bottom: 1rem;
-  }
-  @media (min-width: 64em) {
-    .footer__links.col2 {
       grid-area: links2;
+      margin: 1rem;
     }
+
+    .footer__links a{
+    
+      color: black;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        font-size: 2rem;
+        font-family: var(--ff-secondary);
+       
+      }
   }
 
 
@@ -149,13 +172,18 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--clr-dark);
     color: var(--clr-accent);
-    font-size: 1.8rem;
-  }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.25rem;
+      font-family: var(--ff-secondary);
+    }
+  
   .footer__links a:hover {
     color: white;
     text-shadow: 0px 0px 5px var(--clr-accent);
   }
-  @media (min-width: 64em) {
+  /* @media (min-width: 64em) {
     .footer__cta {
       grid-area: cta;
       text-align: right;
@@ -178,7 +206,9 @@
     .footer__cta a.button {
       margin-bottom: 1.875rem;
     }
-  }
+  } */
+
+
   .footer__copyright {
     font-size: 0.8125rem;
     color: #b0c4de;
@@ -192,7 +222,8 @@
     }
   }
   .footer .attribution a {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color:black;
     font-weight: bolder;
+    margin-top:1rem;
   }

@@ -7,9 +7,7 @@ export default function Hero(){
             <div className="hero-text">
                 <h1>SYNETIC</h1>
                 <h3>Welcome to the future.</h3>
-                <p>Escape from the harsh confines and constraints of
-                 modern day reality.  
-                </p>
+                
             <button className="hero-btn">CONNECT WALLET</button>
             </div>
 

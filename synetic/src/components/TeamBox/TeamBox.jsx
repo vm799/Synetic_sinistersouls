@@ -9,8 +9,14 @@ export default function TeamBox(props){
             </div>
             <div className="team__title">
                 <p>{props.title}</p></div>
+                <div className="team-discord">
+                <a class="social-list__link" href="https://twitter.com/_sinister_souls">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                </div>
             <div className="team__text">
                 <p>{props.text}</p>
+                
         </div>
         </div>
     )

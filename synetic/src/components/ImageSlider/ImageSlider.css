@@ -15,7 +15,7 @@
     height:80vh;
     overflow:hidden;
     position:relative;
-  
+   
 }
 
 .marquee_image:before, .marquee_image:after{

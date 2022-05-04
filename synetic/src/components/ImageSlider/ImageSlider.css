@@ -67,9 +67,9 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
     color: var(--clr-accent);
 }
 
-.marquee_image-content:hover {
+/* .marquee_image-content:hover {
     animation-play-state: paused;
-}
+} */
 
 .marquee_image-content img{
     height: 60%;

@@ -114,7 +114,12 @@ color:var(--clr-light);
 font-family: var(--ff-tertiary);
 }
 
-
+.team-discord a i{
+  font-size: 2rem;
+  background: -webkit-linear-gradient(var(--clr-accent), var(--clr-accent_second));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 h2:hover{
   color:var(--clr-accent_second);

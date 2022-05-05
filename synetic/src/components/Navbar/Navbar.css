@@ -2,9 +2,9 @@
 
 .nav{
     display:flex;
-justify-content: space-between;
+justify-content: space-around;
     background-color:#101010;
-    width: 100%;
+    /* width: 100%; */
     color: var(--clr-light);
     position:fixed;
     margin-top:0;
@@ -43,6 +43,7 @@ justify-content: space-between;
   .nav ul{
     display:flex;
     align-content:space-around;
+    justify-content: space-between;
     list-style-type:none;
     text-transform: uppercase;
   }

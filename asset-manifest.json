@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Synetic_sinistersouls/static/css/main.80253bd5.css",
+    "main.js": "/Synetic_sinistersouls/static/js/main.3d4a1581.js",
+    "index.html": "/Synetic_sinistersouls/index.html",
+    "main.80253bd5.css.map": "/Synetic_sinistersouls/static/css/main.80253bd5.css.map",
+    "main.3d4a1581.js.map": "/Synetic_sinistersouls/static/js/main.3d4a1581.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80253bd5.css",
+    "static/js/main.3d4a1581.js"
+  ]
+}

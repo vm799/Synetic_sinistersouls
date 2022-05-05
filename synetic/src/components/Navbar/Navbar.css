@@ -2,7 +2,7 @@
 
 .nav{
     display:flex;
-justify-content: space-between;
+justify-content: space-around;
     background-color:#101010;
     width: 100%;
     color: var(--clr-light);
@@ -19,7 +19,7 @@ justify-content: space-between;
     
   }
 
-    .nav li {
+  .nav li {
     right: 200px;
     font-size:0.5rem;
     font-weight:bold;

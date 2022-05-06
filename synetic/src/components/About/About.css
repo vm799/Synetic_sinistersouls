@@ -33,12 +33,11 @@ padding-left: 1rem;
 
 
 .about-image{
-   display: flex;
    width:100%;
-   flex-direction: column;
    display: flex;
-   color: white;
    padding: 1rem;
+   justify-content: center;
+    align-items: center;
 }
 
 .highlight-text:before{

@@ -38,7 +38,7 @@ background: linear-gradient(to left, var(--clr-dark) 0%, transparent 100%);
     list-style: none;
     height:100%;
     display:flex;
-    animation: scrolling 20s linear infinite;
+    animation: scrolling 5s linear infinite;
     font-family: var(--ff-primary);
     color:white;
 }

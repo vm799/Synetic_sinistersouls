@@ -21,7 +21,7 @@ function App() {
      <ImageSlider2 />
      <Team />
      <TextSlider />
-     <Syneverse />
+     {/* <Syneverse /> */}
      <NFTgame />
      <About />
      <Roadmap />

@@ -1,6 +1,6 @@
 .image-slider2{
     /* background-color: rgb(249, 0, 124); */
-    height:100vh;
+    /* height:50vh; */
     display:flex;
     justify-content:center;
     align-items: center;
@@ -41,7 +41,7 @@ background: linear-gradient(to left, var(--clr-dark)  0%, transparent 100%);
     list-style: none;
     height:100%;
     display:flex;
-    animation: scrolling2 10s linear infinite;
+    animation: scrolling2 5s linear infinite;
     font-family: var(--ff-primary);
     color:white;
 }

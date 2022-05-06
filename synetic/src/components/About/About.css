@@ -33,7 +33,6 @@ padding-left: 1rem;
 
 
 .about-image{
-   width:100%;
    display: flex;
    padding: 1rem;
    justify-content: center;
@@ -142,11 +141,7 @@ background: radial-gradient(circle, rgba(0,153,202,1) 0%, rgba(233,0,179,1) 100%
  }
    
 
-.about-image{
-   width: 70%;
-   height: 120vh;
-  margin-top:6rem;
-}
+
 
 p{
    font-size: 1rem;

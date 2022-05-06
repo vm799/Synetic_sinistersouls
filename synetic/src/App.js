@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import TextSlider from "./components/TextSlider/TextSlider";
+import ImageSlider2 from "./components/ImageSlider/ImageSlider";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
      <Navbar />
      <Hero />
      <ImageSlider />
+     <ImageSlider2 />
      <Team />
      <TextSlider />
      <Syneverse />

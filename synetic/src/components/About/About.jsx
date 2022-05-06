@@ -4,10 +4,10 @@ import "../About/About.css";
 export default function About(){
     return(
         <div className="about">
-      
+        
         <div className="about-image">
         <h1>ABOUT</h1>
-        <img width="600" height="400" src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8" alt="" />
+        <img width="600" height="400" src="https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZnV0dXJpc3RpYyUyMGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60" alt="" />
         </div>
 
         <div className="about-text">

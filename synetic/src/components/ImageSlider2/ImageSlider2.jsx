@@ -1,7 +1,7 @@
 import React from "react";
 import "../ImageSlider2/ImageSlider2.css";
 
-export default function ImageSlider2(){
+export default function ImageSlider2() {
     return(
 <div class="image-slider2">
     <div class="marquee_image2">

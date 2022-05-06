@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import TextSlider from "./components/TextSlider/TextSlider";
-import ImageSlider2 from "./components/ImageSlider/ImageSlider";
+import ImageSlider2 from "./components/ImageSlider2/ImageSlider2";
 
 function App() {
   return (

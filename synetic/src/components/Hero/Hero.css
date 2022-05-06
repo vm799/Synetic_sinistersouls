@@ -15,6 +15,7 @@
     background: var(--clr-dark);
     color: var(--clr-light);
     padding-bottom: 8rem;
+    border: 5px solid tomato;
 }
 .hero-text{
     display: flex;
@@ -34,6 +35,11 @@
     border: 5px solid green;
 }
 
+.hero-image img{
+object-fit:contain;
+border: 5px solid pink;
+width: 100%;
+}
 
 h1 {
     margin-top: 1em;

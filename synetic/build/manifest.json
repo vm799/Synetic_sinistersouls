@@ -1,6 +1,8 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "synetic",
+  "homepage": "https://vm799.github.io/Synetic_sinistersouls",
+  "version": "0.1.0",
   "icons": [
     {
       "src": "favicon.ico",

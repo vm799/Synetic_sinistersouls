@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar"
 import Team from "./components/Team/Team"
-import Syneverse from "./components/Syneverse/Syneverse"
+// import Syneverse from "./components/Syneverse/Syneverse"
 import About from "./components/About/About"
 import NFTgame from "./components/NFTgame/NFTgame";
 import Hero from "./components/Hero/Hero";
